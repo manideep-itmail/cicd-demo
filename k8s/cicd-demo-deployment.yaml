@@ -5,7 +5,7 @@ metadata:
   name: cicd-demo
 
 spec:
-  replicas: 10
+  replicas: 5
 
   selector:
     matchLabels:
@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: cicd-demo
-        image: manideept27/cicd-demo:V1
+        image: manideept27/cicd-demo:V2.1.5
 
         ports:
         - containerPort: 80
