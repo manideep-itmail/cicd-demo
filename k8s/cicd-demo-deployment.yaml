@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: cicd-demo
-        image: manideept27/cicd-demo:v2.1.6
+        image: manideept27/cicd-demo:v2.1.7
 
         ports:
         - containerPort: 80
