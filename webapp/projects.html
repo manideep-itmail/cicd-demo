@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="DevOps project case studies covering cloud foundations, CI/CD pipelines, and observability platforms.">
+    <meta name="theme-color" content="#0b1224">
+    <title>Projects | Mani DevOps Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html" aria-label="Mani home"><span class="brand-mark">M</span><span>Mani</span></a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="nav-links" data-nav-links>
+          <a href="expertise.html">Expertise</a>
+          <a href="projects.html" aria-current="page">Projects</a>
+          <a href="toolkit.html">Toolkit</a>
+          <a href="experience.html">Experience</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="section-inner">
+          <p class="eyebrow">Selected work</p>
+          <h1>Project case studies with practical DevOps outcomes.</h1>
+          <p class="hero-copy">Replace these examples with your real metrics, repositories, diagrams, and implementation notes as your portfolio grows.</p>
+        </div>
+      </section>
+
+      <section class="section muted">
+        <div class="section-inner project-list page-projects">
+          <article class="project-card">
+            <div class="project-meta"><span>Platform</span><span>AWS &bull; Terraform &bull; GitHub Actions</span></div>
+            <h3>Production-ready cloud foundation</h3>
+            <p>Designed reusable Terraform modules for networking, IAM, compute, secrets, and environment bootstrapping. Added automated plan previews and policy checks in pull requests.</p>
+            <ul>
+              <li>Reduced environment setup time from days to hours.</li>
+              <li>Improved review confidence with repeatable IaC validation.</li>
+              <li>Standardized naming, tagging, and access boundaries.</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-meta"><span>Delivery</span><span>Docker &bull; Kubernetes &bull; Helm</span></div>
+            <h3>Container deployment pipeline</h3>
+            <p>Built a pipeline for containerized services with image scanning, versioned Helm deployments, progressive rollout gates, and one-command rollback support.</p>
+            <ul>
+              <li>Shortened release cycles and reduced deployment drift.</li>
+              <li>Added security checks before images reached runtime.</li>
+              <li>Documented a clear developer release workflow.</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-meta"><span>Operations</span><span>Prometheus &bull; Grafana &bull; Loki</span></div>
+            <h3>Observability and incident response stack</h3>
+            <p>Implemented service dashboards, alert routing, log correlation, runbooks, and SLO-oriented reporting to improve visibility during releases and incidents.</p>
+            <ul>
+              <li>Created actionable alerts with ownership context.</li>
+              <li>Improved mean time to detection for critical services.</li>
+              <li>Aligned dashboards with customer-facing behavior.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Mani. Built for GitHub Pages.</p>
+      <a href="toolkit.html">Next: Toolkit</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
